@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html style="background-color:maroon">
+
+<head>
+
+    <title>FORM 1</title>
+	
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 
+	<style>
+	      form{
+		  width:50%;
+		  margin:auto;	
+	}
+	
+	</style>
+
+</head>
+
+<body>
+  
+ <center><h2 style="color:silver">Personal Details</h2></center><br>
+ 
+<form> 
+ 
+  <fieldset style="width:auto;" "margin:50%;">
+
+	<label for="name" style="color:white">1.Name:</label><input type="text" id="name" placeholder="enter your name"><br><br>
+    <br>
+    <label for="mail" style="color:white">2.Email:</label><input type="email" id="email" placeholder="abc@gmail.com"><br><br>
+	<br>
+	<label for="psw" style="color:white">3.Password:</label><input type="password" id="psw" placeholder="enter your password"><br><br>
+	<br>
+	<label for="number" style="color:white">4.Phone number:</label><input type="tel" id="number" placeholder="91XXXXXXXXXX"><br><br>
+	<br>
+	<label for="ratio" style="color:white">5.Gender:</label>
+	
+	<label for="Male" style="color:silver">
+	<input type="radio" name="gender" value="male">Male
+	<label for="Female" style="color:silver">
+	<input type="radio" name="gender" value="female"> Female
+	<label for="Other" style="color:silver">
+	<input type="radio" name="gender" value="female"> Other</label><br><br>
+	<br>
+	<label for="language" style="color:white">6.Language:</label>
+	<select name="language-picker-select" id="language-picker-select">
+	        <option lang="en-US">English (United States)</option>
+		    <option  lang="ta">Tamil - தமிழ்</option>
+			<option  lang="hi">Hindi - हिन्दी</option>
+			<option  lang="ml">Malayalam - മലയാളം</option>
+			<option  lang="id">Indonesian - Indonesia</option>
+			<option  lang="ia">Interlingua</option>
+			<option  lang="ga">Irish - Gaeilge</option>
+			<option  lang="it">Italian - italiano</option>
+			<option  lang="it-IT">Italian (Italy) - italiano (Italia)</option>
+			<option  lang="it-CH">Italian (Switzerland) - italiano (Svizzera)</option>
+			</select><br><br>
+	<br>
+    <label for="zip" style="color:white">7.Zip code:</label>
+	<input type="text" name="Zip" id="Zip" pattern="[0-9]*"><br><br>
+    <br>
+    <label for="About" style="color:white">8.About:</label>
+	<input type="text" name="About" id="About"><br><br>
+	<br>
+	<button type="button">Register</button>
+	
+</form>
+
+</fieldset>
+
+</body>
+
+</html>
